@@ -1,0 +1,21 @@
+{
+  "name": "node-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "cosmicjs": "^3.2.7",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "mustache-express": "^1.2.6",
+    "nodemon": "^1.17.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "npm run import; node app.js",
+    "dev": "npm run import; nodemon app.js",
+    "import": "node ./scripts/import.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
