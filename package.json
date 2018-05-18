@@ -7,7 +7,6 @@
     "cosmicjs": "^3.2.7",
     "ejs": "^2.6.1",
     "express": "^4.16.3",
-    "mustache-express": "^1.2.6",
     "nodemon": "^1.17.4"
   },
   "devDependencies": {},
