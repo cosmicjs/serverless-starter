@@ -4,6 +4,7 @@ const PORT = process.env.PORT || 3000
 const Cosmic = require('cosmicjs')
 const api = Cosmic()
 const COSMIC_BUCKET = process.env.COSMIC_BUCKET || 'node-starter'
+var opn = require('opn')
 const bucket = api.bucket({
 	slug: COSMIC_BUCKET
 })
@@ -24,4 +25,5 @@ app.get('/:slug?', async (req, res) => {
 })
 app.listen(PORT, () => { 
 	console.log('Your Cosmic JS starter app is running at http://localhost:' + PORT)
+	opn('http://localhost:' + PORT)
 })
