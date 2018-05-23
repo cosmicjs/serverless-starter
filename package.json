@@ -11,8 +11,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "npm run import; node app.js",
-    "dev": "npm run import; nodemon app.js",
+    "start": "node app.js",
+    "dev": "nodemon app.js",
     "import": "node ./scripts/import.js"
   },
   "author": "",
