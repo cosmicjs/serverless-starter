@@ -1,5 +1,5 @@
 # node-starter
-🔥Install a Cosmic-powered app in seconds 🚀  Node.js starter website powered by [Cosmic JS](https://cosmicjs.com).
+Node.js starter app powered by [Cosmic JS](https://cosmicjs.com) 🚀
 
 ## Installation
 Install via the [Cosmic CLI](https://github.com/cosmicjs/cosmic-cli).
