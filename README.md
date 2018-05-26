@@ -1,4 +1,4 @@
-# node-starter
+# Node Starter
 Node.js starter app powered by [Cosmic JS](https://cosmicjs.com) 🚀
 
 ## Installation
