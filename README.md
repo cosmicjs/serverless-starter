@@ -20,7 +20,6 @@ npm i -g serverless
 serverless login
 ```
 ## Run locally
-Install [Serverless](https://serverless.com).
 ```bash
 # Start with serverless offline command
 sls offline start
