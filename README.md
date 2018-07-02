@@ -12,5 +12,6 @@ cosmic login
 # Installs example content to a new or existing Bucket and downloads the app locally
 cosmic init serverless-starter
 cd serverless-starter
-cosmic start
+# Start with serverless offline command
+sls offline start
 ```
