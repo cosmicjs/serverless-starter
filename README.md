@@ -20,8 +20,8 @@ npm i -g serverless
 serverless login
 ```
 ## Run locally
+Start with serverless offline command.
 ```bash
-# Start with serverless offline command
 sls offline start
 ```
 ## Configure AWS credentials
