@@ -5,6 +5,7 @@ const PORT = process.env.PORT || 3000
 const Cosmic = require('cosmicjs')
 const api = Cosmic()
 const COSMIC_BUCKET = process.env.COSMIC_BUCKET || 'node-starter'
+const COSMIC_READ_KEY = process.env.COSMIC_READ_KEY || ''
 let stage_path = 'dev/'
 if (process.env.STAGE === 'local')
 	stage_path = ''
