@@ -10,9 +10,8 @@ npm i -g cosmic-cli
 cosmic login
 
 # Installs example content to a new or existing Bucket and downloads the app locally
-git clone https://github.com/cosmicjs/serverless-starter
+cosmic init serverless-starter
 cd serverless-starter
-npm install
 ```
 ## Install Serverless
 Install [Serverless](https://serverless.com) and login.
