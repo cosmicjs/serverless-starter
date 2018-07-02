@@ -22,7 +22,8 @@ serverless login
 ## Run locally
 Start serverless server locally.
 ```bash
-cosmic develop # runs sls offline start
+# runs sls offline start connected to your Cosmic JS Bucket
+cosmic develop
 ```
 ## Configure AWS credentials
 Add your AWS keys.  Follow the [guide on the Serverless website](https://serverless.com/framework/docs/providers/aws/guide/credentials/) for more instructions.
