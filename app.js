@@ -5,8 +5,12 @@ const PORT = process.env.PORT || 3000
 const Cosmic = require('cosmicjs')
 const api = Cosmic()
 const COSMIC_BUCKET = process.env.COSMIC_BUCKET || 'node-starter'
+let stage_path = 'dev/'
+if (process.env.STAGE === 'local')
+	stage_path = ''
 const bucket = api.bucket({
-	slug: COSMIC_BUCKET
+	slug: COSMIC_BUCKET,
+	read_key: COSMIC_READ_KEY
 })
 app.set('view engine', 'ejs')
 app.get('/:slug?', (req, res) => {
@@ -16,10 +20,10 @@ app.get('/:slug?', (req, res) => {
 		slug = 'home'
 	bucket.getObject({ slug }).then(data => {
 		const page = data.object
-		res.render('pages/default', { page, year })
+		res.render('pages/default', { page, year, stage_path })
 	}).catch(err => {
 		const page = { title: 'Page not found' }
-		res.render('pages/404', { page, year })
+		res.render('pages/404', { page, year, stage_path })
 	})
 })
 

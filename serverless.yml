@@ -7,6 +7,9 @@ provider:
   runtime: nodejs6.10
   stage: dev
   region: us-east-1
+  environment:
+    COSMIC_BUCKET: ${env:COSMIC_BUCKET}
+    COSMIC_READ_KEY: ${env:COSMIC_READ_KEY}
 
 functions:
   app:

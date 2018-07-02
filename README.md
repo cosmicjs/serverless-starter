@@ -22,7 +22,7 @@ serverless login
 ## Run locally
 Start with serverless offline command.
 ```bash
-sls offline start
+COSMIC_BUCKET=your-bucket-slug STAGE=local sls offline start
 ```
 ## Configure AWS credentials
 Add your AWS keys.  Follow the [guide on the Serverless website](https://serverless.com/framework/docs/providers/aws/guide/credentials/) for more instructions.
@@ -32,5 +32,5 @@ export AWS_SECRET_ACCESS_KEY=<your-secret-key-here>
 ```
 ## Deploy
 ```
-sls deploy
+COSMIC_BUCKET=your-bucket-slug sls deploy
 ```
