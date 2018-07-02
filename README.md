@@ -31,7 +31,8 @@ Add your AWS keys.  Follow the [guide on the Serverless website](https://serverl
 export AWS_ACCESS_KEY_ID=<your-key-here>
 export AWS_SECRET_ACCESS_KEY=<your-secret-key-here>
 ```
-## Deploy
+## Deploy to AWS
+Deploying to AWS is easy using the Serverless deploy command.
 ```
 COSMIC_BUCKET=your-bucket-slug sls deploy
 ```
