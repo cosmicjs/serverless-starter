@@ -15,8 +15,7 @@
     "serverless-offline": "^3.25.5"
   },
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js",
+    "dev": "STAGE=local sls offline start",
     "develop": "npm run dev",
     "import": "node ./scripts/import.js"
   },

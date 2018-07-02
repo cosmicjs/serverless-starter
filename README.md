@@ -20,9 +20,9 @@ npm i -g serverless
 serverless login
 ```
 ## Run locally
-Start with serverless offline command.
+Start serverless server locally.
 ```bash
-COSMIC_BUCKET=your-bucket-slug STAGE=local sls offline start
+cosmic develop // runs sls offline start
 ```
 ## Configure AWS credentials
 Add your AWS keys.  Follow the [guide on the Serverless website](https://serverless.com/framework/docs/providers/aws/guide/credentials/) for more instructions.
