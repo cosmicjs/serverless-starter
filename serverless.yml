@@ -1,6 +1,6 @@
 # serverless.yml
 
-service: my-express-application
+service: cosmic-serverless
 
 provider:
   name: aws
