@@ -37,4 +37,4 @@ Deploying to AWS is easy using the Serverless deploy command.
 COSMIC_BUCKET=your-bucket-slug sls deploy
 ```
 ## [Serverless CMS](https://cosmicjs.com/knowledge-base/serverless-cms)
-Cosmic JS offers a [Headless CMS](https://cosmicjs.com/headless-cms) used to power content for your Serverless websites and apps.
+Cosmic JS offers a [Headless CMS](https://cosmicjs.com/headless-cms) for your Serverless websites and apps.
